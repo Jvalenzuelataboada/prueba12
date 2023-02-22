@@ -1,0 +1,63 @@
+/* main {
+    font-size: 0;
+}
+
+.padre p {
+    font-size: 16px;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.padre {
+    
+    width: 500px;
+    height: 500px;
+   
+    border: 1px dashed red;
+    
+}
+
+
+.hijo1{
+    
+    width: 250px;
+    height: 250px;
+
+}
+
+.hijo2{
+    background-color: red;
+    border-top: 10px gray;
+    border-bottom: 10px gray;
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+    padding: 0 0 0 0;
+}
+
+.hijo3{
+    background-color: salmon;
+    border-right: 10px cyan;
+    border-left: 10px cyan;
+    width: 145px;
+    height: 145px;
+    display: inline-block;
+}
+
+.hijo4{
+    background-color: green;
+    border-right: 10px cyan;
+    border-left: 10px cyan;
+    display: inline-block;
+    width: 145px;
+    height: 145px;
+}

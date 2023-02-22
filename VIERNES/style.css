@@ -1,0 +1,8 @@
+.box {
+    background-color: red;
+    max-width: 800px;
+    min-width: 600px;
+    max-height: 500px;
+    min-height: 200px;
+
+}
